@@ -232,7 +232,7 @@ post_meta:
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: true
+  wordcount: false
   min2read: false
   totalcount: true
   separated_meta: true
@@ -364,8 +364,8 @@ swiftype_key:
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: dr-curiosity
   count: true
 
 # Hypercomments
@@ -545,7 +545,7 @@ leancloud_visitors:
 # visit https://console.firebase.google.com/u/0/ to get apiKey and projectId
 # visit https://firebase.google.com/docs/firestore/ to get more information about firestore
 firestore:
-  enable: true
+  enable: false
   collection: articles #required, a string collection name to access firestore database
   apiKey: AIzaSyAnUcFW7HaegYfJvm3l9_YVfBVoZUTlBdw #required
   projectId: dr-blog #required
